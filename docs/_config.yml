@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a web page with learning purposes that im developing
   to show you my work creating new amazing Qt widgets
 
-baseurl: "/marceloweb" # the subpath of your site, e.g. /blog
-url: "https://marceloomg13/marceloomg13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/BotonAnimado" # the subpath of your site, e.g. /blog
+url: "https://marceloomg13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ElonMusk
 github_username:  marceloomg13
 
