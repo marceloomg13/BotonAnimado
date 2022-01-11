@@ -18,21 +18,36 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Documentation
-email: marceloomg4579@gmail.com
+title: GT-DVIA-21-22
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a web page with learning purposes that im developing
-  to show you my work creating new amazing Qt widgets
-
-baseurl: "/BotonAnimado" # the subpath of your site, e.g. /blog
-url: "https://marceloomg13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ElonMusk
-github_username:  marceloomg13
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/GT-DVIA-21-22" # the subpath of your site, e.g. /blog
+url: "https://IES-Rafael-Alberti.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-theme: minima
+#remote_theme: gdgmanagua/jekyll-mdl
+remote_theme:: samarsault/texture
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+texture:
+  title: GT-DVIA-21-22
+  tagline: Grupo de Trabajo
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    #twitter: thelehhman
+    github:  IES-Rafael-Alberti/GT-DVIA-21-22
+    #linkedIn: in/thelehhman # format: locale/username
+
+  style: red
+  showPicker: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -42,14 +57,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
- exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
